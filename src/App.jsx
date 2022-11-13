@@ -7,7 +7,6 @@ import { Navigation } from './components/Navigation';
 // import { Reviews } from './components/Reviews';
 // import { Cast } from './components/Cast';
 import { lazy, Suspense } from "react";
-import Notiflix from "notiflix";
 // import { Audio } from 'react-loader-spinner';
 
 const HomePage = lazy(() => import("./components/HomePage" /* webpackChunkName: "home-page" */));
