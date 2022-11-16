@@ -12,7 +12,7 @@ function MovieDetailsPage() {
 
     useEffect(() => {
         API.getMovieById(movieId).then(setData);
-    }, [])
+    }, [movieId])
     
     return (data &&
         <>
